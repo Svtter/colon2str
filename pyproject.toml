@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "colon2equal"
 version = "0.1.0"
-description = ""
+description = "将 var:type 转换成 var=.."
 authors = ["svtter <svtter@qq.com>"]
 
 [tool.poetry.dependencies]
