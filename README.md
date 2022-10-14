@@ -1,7 +1,6 @@
 Colon2equal
 ============
 
-
 example:
 
 1. `system:str` => `system=""`
