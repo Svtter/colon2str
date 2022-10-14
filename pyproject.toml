@@ -13,3 +13,6 @@ pytest-pep8 = "^1.0.6"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+colon2equal = 'colon2equal.__main__:main'
