@@ -34,3 +34,9 @@ def colon2equal(colon_str: str, is_space: bool = False):
         result = f"{variable_name}={to_value}"
 
     return result
+
+
+def transfer_multiple(colon2paragraph: str):
+    colons = colon2paragraph.split('\n')
+    results = [colon2equal(c) for c in colons]
+    return "\n".join(results)

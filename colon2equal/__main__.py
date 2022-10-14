@@ -1,7 +1,7 @@
 # tools to transfer colon to equal
 
 import argparse
-from colon2equal.transfer import colon2equal
+from colon2equal.transfer import transfer_multiple, colon2equal
 
 
 def main():
